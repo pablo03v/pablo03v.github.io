@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pablo03v</title>
+		<link rel="icon" href="https://raw.githubusercontent.com/pabloscloud/pabloscloud.github.io/main/961fddeddd9d5603.png" type="image/png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			body {
+			  background: black;
+			  padding-inline: 1rem;
+			  font-family: system-ui;
+			  font-weight: 800;
+			  font-size: calc(1rem + 10vmin);
+			  text-align: center;
+			  overflow-x: hidden;
+			}
+			
+			.intro {
+			  display: flex;
+			  justify-content: center;
+			  gap: 0.2em;
+			  margin-block-start: calc(50vh - 1ex);
+			}
+			
+			.box {
+			  margin-block: 80vh;
+			}
+			
+			.outro {
+			  margin: 80vh 0 40vh 0;
+			}
+			
+			.text {
+			  margin-inline: auto;
+			  padding-block: 0.2em;
+			  color: white;
+			  max-inline-size: 15ch;
+			  text-wrap: balance;
+			}
+			
+			.smile {
+  display: inline-block;
+  width: 1.2em; /* Slightly wider to ensure a clean switch */
+  overflow: hidden;
+  margin-inline: auto;
+  margin-block-end: calc(50vh - 1ex);
+}
+
+.smile div {
+  display: flex;
+  width: 2.4em; /* Ensure both emojis fit properly */
+  animation: wink 0.75s steps(1) infinite;
+}
+
+.smile span {
+  display: inline-block;
+  width: 1.2em; /* Ensures each emoji is properly spaced */
+  text-align: center;
+}
+
+@keyframes wink {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.2em); /* Move exactly one emoji width */
+  }
+}
+
+		</style>
+	</head>
+	<body>
+		<div class="intro">
+			<p class="text">hello</p>
+		</div>
+		<div class="box">
+			<p class="text">I know it's me you're looking for!</p>
+		</div>
+		<div class="box">
+			<p class="text">Or why else are you on my page bruh</p>
+		</div>
+		<div class="smile" role="img" aria-hidden>
+			<div>
+				<span>🙂</span>
+				<span>😉</span>
+		  	</div>
+		</div>
+		<div class="outro">
+			<p class="text">hehe</p>
+		</div>
+	</body>
+</html>
